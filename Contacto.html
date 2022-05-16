@@ -42,29 +42,29 @@
    </nav>
    <br>
    <br>
-   <form class="row g-3">       
+   <form class="row g-3" action="https://formspree.io/f/xeqnvpbb" method="post" target="_blank">       
     <div class="col-md-6">
       <label for="inputAddress" class="form-label">Nombre</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="Nombre">
+      <input type="text" class="form-control" id="inputAddress" placeholder="Nombre" name="Nombre">
     </div>
     <div class="col-md-6">
       <label for="inputAddress" class="form-label">Apellido</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="Apellido">
+      <input type="text" class="form-control" id="inputAddress" placeholder="Apellido" name="Apellido">
     </div>
     <div class="col-md-6">
       <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
+      <input type="email" class="form-control" id="inputEmail4" name="Email">
     </div> 
     <div class="col-12">
       <label for="inputAddress" class="form-label">Direccion del evento</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="Dieccion Completa">
+      <input type="text" class="form-control" id="inputAddress" placeholder="Dieccion Completa" name="Direccion del evento">
     </div>    
     <div class="col-md-6">
       <label for="inputCity" class="form-label">Ciudad</label>
-      <input type="text" class="form-control" id="inputCity">
+      <input type="text" class="form-control" id="inputCity" Name="Ciudad">
     </div>
     <div class="col-md-4">
-      <label for="inputState" class="form-label">Estado</label>
+      <label for="inputState" class="form-label" name="Estado">Estado</label>
       <select id="inputState" class="form-select">
         <option selected>Elegir...</option>
         <option>Distrito Capital</option>
@@ -75,22 +75,30 @@
     </div>
     <div class="col-md-2">
       <label for="inputZip" class="form-label">Telefono</label>
-      <input type="text" class="form-control" id="inputZip">
+      <input type="text" class="form-control" id="inputZip"name="Telefono">
     </div>
     <div class="col-md-2">
       <label for="inputZip" class="form-label">Numero de Invitados</label>
-      <input type="text" class="form-control" id="inputZip">
+      <input type="text" class="form-control" id="inputZip" name="Numero de Invitados">
     </div>    
     <div class="col-md-5">
       <label for="inputZip" class="form-label">Numero de Mesas Circulares</label>
-      <input type="text" class="form-control" id="inputZip">
+      <input type="text" class="form-control" id="inputZip" name="Numero de mesas circulares">
     </div>    
     <div class="col-md-5">
       <label for="inputZip" class="form-label">Numero de Mesas Rectagulares o Cuadradas</label>
-      <input type="text" class="form-control" id="inputZip">
+      <input type="text" class="form-control" id="inputZip" name="Numero de mesas Rectangulares o cudradas">
     </div>
     <div class="col-12">
+      <label for="Comentarios" class="form-label">Observaciones</label>
+      <textarea name="Comentarios" id="Comentario" cols="60" rows="5"></textarea>      
+    </div>
+    <!-- botones -->
+    <div class="col-12">
       <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+    <div class="col-12">
+      <button type="reset" class="btn btn-primary">Resetear</button>
     </div>
   </form>
   <div style="text-align: center;">
